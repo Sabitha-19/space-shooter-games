@@ -1,0 +1,28 @@
+body {
+  margin: 0;
+  overflow: hidden;
+  background: #000814; /* deep space */
+  font-family: Arial, sans-serif;
+}
+
+#gameCanvas {
+  display: block;
+  margin: 0;
+  background: #000814;
+}
+
+#muteBtn {
+  position: fixed;
+  top: 15px;
+  right: 15px;
+  background: linear-gradient(135deg,#7b7bff,#9fd0ff);
+  color: #fff;
+  border: none;
+  border-radius: 50%;
+  width: 45px;
+  height: 45px;
+  font-size: 20px;
+  cursor: pointer;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+  z-index: 1000;
+}
